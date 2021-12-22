@@ -1,6 +1,0 @@
----
-# Shutdown VM
-- hosts: x
-  tasks:
-  - name: Shutdown VM
-    command: virsh shutdown AWX_controlled
